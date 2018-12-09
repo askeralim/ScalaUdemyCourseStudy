@@ -1,4 +1,4 @@
-package study.lectures.part2.oop
+package study.lectures.part2.oop.generics
 
 object GenericListExample extends App{
   val list = GenericEmptyList

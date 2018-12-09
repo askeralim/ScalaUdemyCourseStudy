@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85726979-6380-4bea-af21-08b86e59f67c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/AdvancedListWithGenericAndTraits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsExample.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/lectures/part2/oop/GenericListExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericListExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/lectures/part2/oop/GenericsExample.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,68 +59,78 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1124127653">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="scala" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Scala" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scala" value="1041" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Scala" value="1041" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/MethodNotation.scala">
+        <entry file="file://$PROJECT_DIR$/src/study/exercises/BookAuthorExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericListExample.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/CompanionDesign.scala">
+        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/Person.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/Inheritance.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/IntListExample.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="1" selection-start-line="7" selection-end-line="33" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/GenericsExample.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/GenericListExample.scala">
+        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/AdvancedListWithGenericAndTraits.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="289">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -133,16 +148,7 @@
         <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsInheritance.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -161,6 +167,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>IntListBase</find>
+      <find>AdvancedEmptyList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,21 +194,24 @@
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/GenericExample.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericExample.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsInheritance.scala" />
-        <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/MyList.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/MyListIntExampleGeneric.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/MyListIntExample.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/ListIntExample.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/IntListExample.scala" />
+        <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala" />
         <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/GenericListExample.scala" />
+        <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericListExample.scala" />
+        <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsExample.scala" />
+        <option value="$PROJECT_DIR$/src/study/lectures/part2/oop/generics/AdvancedListWithGenericAndTraits.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3875" />
-    <option name="height" value="2095" />
+    <option name="x" value="3832" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,24 +219,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ScalaUdemyCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaUdemyCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaUdemyStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaUdemyStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544357239912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544364869903" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.atlassian.bitbucket.linky" />
   </component>
@@ -254,13 +306,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericListExample">
+  <component name="RunManager" selected="Application.AdvancedListWithGenericAndTraits">
+    <configuration name="AdvancedListWithGenericAndTraits" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="study.lectures.part2.oop.generics.AdvancedListWithGenericAndTraits" />
+      <module name="ScalaUdemyCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.lectures.part2.oop.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="study.lectures.part2.oop.AnonymousClass" />
       <module name="ScalaUdemyCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.lectures.part2.oop.*" />
+          <option name="PATTERN" value="study.lectures.part2.oop.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,11 +334,11 @@
       </method>
     </configuration>
     <configuration name="GenericListExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="study.lectures.part2.oop.GenericListExample" />
+      <option name="MAIN_CLASS_NAME" value="study.lectures.part2.oop.generics.GenericListExample" />
       <module name="ScalaUdemyCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.lectures.part2.oop.*" />
+          <option name="PATTERN" value="study.lectures.part2.oop.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,7 +351,7 @@
       <module name="ScalaUdemyCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.lectures.part2.oop.*" />
+          <option name="PATTERN" value="study.lectures.part2.oop.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,19 +364,6 @@
       <module name="ScalaUdemyCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.lectures.part2.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyListExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="study.lectures.part2.oop.MyListExample" />
-      <module name="ScalaUdemyCourse" />
-      <extension name="coverage">
-        <pattern>
           <option name="PATTERN" value="study.lectures.part2.oop.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -321,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyListExample" />
       <item itemvalue="Application.AnonymousClass" />
       <item itemvalue="Application.MyIntListExample" />
       <item itemvalue="Application.IntListExample" />
       <item itemvalue="Application.GenericListExample" />
+      <item itemvalue="Application.AdvancedListWithGenericAndTraits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdvancedListWithGenericAndTraits" />
+        <item itemvalue="Application.AnonymousClass" />
         <item itemvalue="Application.GenericListExample" />
         <item itemvalue="Application.IntListExample" />
         <item itemvalue="Application.MyIntListExample" />
-        <item itemvalue="Application.MyListExample" />
-        <item itemvalue="Application.AnonymousClass" />
       </list>
     </recent_temporary>
   </component>
@@ -359,27 +411,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16005205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Bitbucket Issues" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1989026" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41563785" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.28031147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41563785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4266118" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5009759" side_tool="true" visible="true" weight="0.33994335" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49902406" visible="true" weight="0.33994335" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32784638" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.28031147" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49832326" weight="0.19472913" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4968017" weight="0.3259177" />
+      <window_info anchor="bottom" id="Bitbucket Issues" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -447,7 +500,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/study/lectures/part2/oop/GenericListExample.scala</url>
+          <url>file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericListExample.scala</url>
           <line>3</line>
           <properties />
           <option name="timeStamp" value="13" />
@@ -524,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/exercises/BookAuthorExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScalaUdemyCourse.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -563,10 +609,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/CompanionDesign.scala">
+    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/IntListExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="561">
+          <caret line="33" column="1" selection-start-line="7" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/Inheritance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -577,23 +630,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/Inheritance.scala">
+    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/CompanionDesign.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/IntListExample.scala">
+    <entry file="file://$PROJECT_DIR$/src/study/exercises/BookAuthorExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="1" selection-start-line="7" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/GenericsExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-302">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
@@ -605,24 +658,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericListExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/GenericsInheritance.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/AnonymousClass.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/GenericListExample.scala">
+    <entry file="file://$PROJECT_DIR$/src/study/lectures/part2/oop/generics/AdvancedListWithGenericAndTraits.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="289">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
