@@ -13,9 +13,15 @@ val list = EmptyList.add(1).add(2).add(3);
   val transformer = new Transformer[Int, Int] {
     override def transform(element: Int): Int = element *10;
   }
+
+
   println("Even Number :"+list.filter(predicate));
   println("10 Times Number :"+list.map(transformer));
   println("Joined  :"+(list ++ list1.map(transformer)));
+  val twinTransformer = new Transformer[Int, MyList[Int]] {
+    override def transform(item:Int) = new AdvancedList(item, new AdvancedList(item+1, EmptyList));
+  }
+  println("Flat map :"+list.flatMap(twinTransformer))
 }
 trait Predicate[-T]{
   def test(element:T):Boolean
@@ -64,7 +70,7 @@ class AdvancedList[+A](item:A, tailList:MyList[A]) extends MyList[A]{
 
   override def map[B](transformer: Transformer[A, B]): MyList[B] = new AdvancedList(transformer.transform(head), tail.map(transformer))
 
-  override def flatMap[B](transformer: Transformer[A, MyList[B]]): MyList[B] = ???
+  override def flatMap[B](transformer: Transformer[A, MyList[B]]): MyList[B] = transformer.transform(head) ++ tail.flatMap(transformer)
 
   override def ++[B >: A](list: MyList[B]): MyList[B] = new AdvancedList(head, tail ++ list);
 }
