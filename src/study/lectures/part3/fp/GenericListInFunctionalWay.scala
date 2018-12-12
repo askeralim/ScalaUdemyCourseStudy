@@ -4,19 +4,12 @@ import study.lectures.part2.oop.generics.EmptyList.{head, tail}
 
 object GenericListInFunctionalWay extends App{
 val list = EmptyList.add(1).add(2).add(3);
-  val list1 = EmptyList.add(1).add(2).add(3);
-
+  val list1 = EmptyList.add(1).add(2).add(3)
   println(list)
   println("Even Number :"+list.filter((item:Int)=>item%2 == 0))
   println("10 Times Number :"+list.map((item:Int)=>item*10))
   println("Joined  :"+(list ++ list1.map((item:Int)=>item*2)))
   println("Flat map :"+list.flatMap((item:Int) => new AdvancedList(item, new AdvancedList(item+1, EmptyList))))
-}
-trait Predicate[-T]{
-  def test(element:T):Boolean
-}
-trait Transformer[-A,B]{
-  def transform(element:A):B
 }
 abstract class MyList[+A]{
   def head:A
@@ -25,7 +18,7 @@ abstract class MyList[+A]{
   def add[B>:A](item:B):MyList[B]
   def printElements:String
   override def toString ="["+printElements+"]"
-
+  // Higher Order Functions - Accepts or returns Functions
   def map[B](transformer: A=>B):MyList[B]
   def flatMap[B](transformer: A=>MyList[B]):MyList[B]
   def filter(predicate: A=>Boolean):MyList[A]
@@ -58,5 +51,5 @@ class AdvancedList[+A](item:A, tailList:MyList[A]) extends MyList[A]{
     else tail.filter(predicate)
   override def map[B](transformer: A=> B): MyList[B] = new AdvancedList(transformer(head), tail.map(transformer))
   override def flatMap[B](transformer: A=> MyList[B]): MyList[B] = transformer(head) ++ tail.flatMap(transformer)
-  override def ++[B >: A](list: MyList[B]): MyList[B] = new AdvancedList(head, tail ++ list);
+  override def ++[B >: A](list: MyList[B]): MyList[B] = new AdvancedList(head, tail ++ list)
 }
