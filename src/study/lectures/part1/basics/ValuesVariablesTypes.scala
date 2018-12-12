@@ -12,4 +12,6 @@ object ValuesVariablesTypes extends App {
   val f=122423.0f
   print(str+str1)
   print(f)
+ def apply(v:Int) =  v*100
+ println("Calling Apply method: "+ValuesVariablesTypes(10))
 }
