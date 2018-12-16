@@ -42,8 +42,9 @@ object MapFlatMapFilter extends App{
     c<-chars  // Here the order doesnt matter
   } yield ""+c+""+n+" "+col)
 
-  for{
-    n<-numbers
-  } print(" "+n)
-
+  for {
+    n <- numbers if n % 2 == 0
+    col <- colors
+    c <- chars
+  }yield print(c+""+n+" "+col)
 }
