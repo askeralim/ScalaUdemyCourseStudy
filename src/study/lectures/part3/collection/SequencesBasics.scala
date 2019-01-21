@@ -3,6 +3,8 @@ package study.lectures.part3.collection
 import scala.util.Random
 
 object SequencesBasics extends App{
+  val arr = Array(1,2,3)
+  println(arr(2))
   val seq = Seq(1,2,3,4,5)
   println(seq)
   println(seq.reverse)
