@@ -43,4 +43,14 @@ object HigherOrderFunction extends App{
   println(composed(4)) // 15
   println(ordered(4)) // 21
 
+//  def makeCounter(): ()=>Int ={
+//    var value:Int =0
+//    return {value+=1}
+//  }
+//  val c1= makeCounter();
+//  c1()
+//  c1()
+//  c1()
+//  val c2= makeCounter();
+//  println(s"$c1() C2 $c2")
 }

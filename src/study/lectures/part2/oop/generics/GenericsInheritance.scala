@@ -6,9 +6,9 @@ object GenericsInheritance {
 
 }
 
-class Animal
-class Cat extends  Animal
-class Dog extends Animal
+///class Animal
+//class Cat extends  Animal
+//class Dog extends Animal
 
 class TestList[+A] {
   //def add(element:A)=new TestList[A] -- ERROR here because of the Covariance issue. Need to rewrite as follows.

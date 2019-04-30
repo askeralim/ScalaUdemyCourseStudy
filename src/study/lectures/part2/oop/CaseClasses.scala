@@ -19,7 +19,5 @@ object CaseClasses extends App{
 
   //Feature 5: Case classes are serializable.
   // Very helpful for using AKKA.
-
-
 }
 

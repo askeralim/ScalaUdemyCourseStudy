@@ -19,7 +19,7 @@ object Expressions extends App {
   val s = {
    2<3
  }
-  println(s)
+  println(s"The Value of S :$s")
   val so={
     if(s) 2 else 3
     42
