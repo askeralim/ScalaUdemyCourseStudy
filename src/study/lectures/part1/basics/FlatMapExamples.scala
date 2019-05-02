@@ -3,6 +3,7 @@ package study.lectures.part1.basics
 object FlatMapExamples extends App{
   val s = List(1,200,301,4)
   println(s.flatMap(s=>s"$s"))
+  println(s.flatMap(s=>List(s, s*10, s*10*10)))
   println(s.flatten(_.toString))
   println(s.map(s=>s"$s.00")) // Converting to String
   println(s.map(s=>s*10)) // Multiplying
