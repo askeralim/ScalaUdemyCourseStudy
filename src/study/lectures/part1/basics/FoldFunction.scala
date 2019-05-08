@@ -8,9 +8,9 @@ object FoldFunction extends App{
   val product = numbers.fold(1) { (a, i) =>
     a * i
   }
-  numbers.fold(true){
+  numbers.fold(true)(
     (item, i) => {println("Fold Right :"+item+"  i:"+i);i;}
-  }
+  )
   println("Sum :"+ sum+" Product:"+product)
 
   class Foo(val name: String, val age: Int, val sex: Symbol)

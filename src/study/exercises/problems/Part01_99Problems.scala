@@ -51,6 +51,18 @@ object Part01_99Problems extends App {
 
   //P14 P15
   println("Duplicate List :"+duplicateN(3, List('a, 'b, 'c, 'c, 'd)))
+
+  //P16
+  println("Drop every nth List :"+drop(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)))
+
+  //P17
+  split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  //Result : res0: (List[Symbol], List[Symbol]) = (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+
+  //P18
+  slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  //res0: List[Symbol] = List('d, 'e, 'f, 'g)
+
   /**
     * @param ls   A List is represented like 1 :: 2 :: 3 :: Nil  => Implied a List(1,2,3)
     * @tparam A The List of Type A
@@ -171,6 +183,27 @@ object Part01_99Problems extends App {
   //  scala> duplicateN(3, List('a, 'b, 'c, 'c, 'd))
   //  res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
   def duplicateN[A](count:Int,ls:List[A]):List[A] = ls flatMap(s=>List.fill(count)(s))
+
+  //P16
+ // def drop[A](size:Int, ls:List[A]):List[A] = ls grouped(size) map(subList=> subList (List())).collect//((ls:List[A],item)=> ls :: item)) //flatMap(item=>List(item))
+  def drop[A](size:Int, ls:List[A]):List[A] = ls.zipWithIndex.collect{
+        case (x, i) if((i+1)%size !=0) => x
+      }
+  def drop_ForComprehension[A](size:Int, ls:List[A]):List[A] = for {
+    (x,i) <- ls zipWithIndex
+    if i+1 % size != 0
+  } yield x
+
+  def dropFunctional[A](n: Int, ls: List[A]): List[A] =
+    ls.zipWithIndex filter { v => (v._2 + 1) % n != 0 } map { _._1 }
+
+  //P17
+  def split[A](pos:Int,ls:List[A]):(List[A],List[A]) = ls.splitAt(pos)
+  def splitFunctional[A](n:Int,ls:List[A]):(List[A],List[A]) = (ls.take(n),ls.drop(n))
+
+  //P18
+  def slice[A](start:Int,end:Int, ls:List[A]) = ls.drop(start).take(end-start)
+
   /**
     * Tail recursion implementation
     * @param ls
